@@ -1,0 +1,16 @@
+{
+  "name": "aloha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "liscence": "ayuwoki",
+  "scripts": {
+    "migrate": "node-pg-migrate"
+  },
+  "author": "eko234",
+  "dependencies": {
+    "dotenv": "~10.0.0",
+    "node-pg-migrate": "5.10.0",
+    "pg-promise": "~10.11.0"
+  }
+}
