@@ -9,6 +9,7 @@
   },
   "author": "eko234",
   "dependencies": {
-    "node-pg-migrate": "5.10.0"
+    "node-pg-migrate": "5.10.0",
+    "pg-promise": "10.11.1"
   }
 }

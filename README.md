@@ -6,5 +6,5 @@ docker run -it \
 	--rm \
 	-v $(pwd)/migrations:/var/app/migrations:z \
 	--network <networkname> \
-	migrator <networkname> <port> <user> <pass> <dbname>
+	migrator <host> <port> <user> <pass> <dbname>
 ```
